@@ -11,6 +11,9 @@ If you found this code helps your work, do not hesitate to cite my paper or star
 
 The CRAS framework and experimental results can be found in figure 1, and in the following table 3 and 4, respectively.
 
+Framework
+![]()
+
 ### Training
 
 Warmup Commands
