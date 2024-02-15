@@ -13,6 +13,30 @@ Install requirements
 pip install -r requirements.txt
 ```
 
+Warmup Commands
+```
+cd CR
+```
+
+```
+python train.py -c config_clothing1m.json
+```
+```
+python main.py -c config_webvision.json
+```
+
+Training Commands
+```
+cd ../
+```
+
+```
+python clothing1m.py --src config_clothing1m.json -r "model path"
+```
+```
+python main.py --src config_webvision.json -r "model path"
+```
+
 ### Citation
 If you find this code helps your work, please cite our paper:
 ```
