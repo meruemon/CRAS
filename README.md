@@ -1,6 +1,6 @@
 # CRAS: Curriculum Regularization and Adaptive Semi-Supervised Learning with Noisy Labels
 
-This repo provides the official PyTorch implementation of our CRAS accepted by Applied Science 2024.
+This repo provides the official PyTorch implementation of our CRAS accepted by [Applied Science](https://www.mdpi.com/2076-3417/14/3/1208) 2024.
 
 > Abstract: This paper addresses the performance degradation of deep neural networks caused by learning with noisy labels.
 Recent research on this topic has exploited the memorization effect: networks fit data with clean labels during the early stages of learning and eventually memorize data with noisy labels.
@@ -11,3 +11,4 @@ To solve these problems, we propose the curriculum regularization and adaptive s
 Its key ideas are (1) to train the network with robust regularization techniques as a warm-up before dividing the data, and (2) to control the strength of the regularization using loss weights that adaptively respond to data bias, which varies with each split at each training epoch.
 We evaluated the performance of CRAS on benchmark image classification datasets, CIFAR-10 and CIFAR-100, and real-world datasets, mini-WebVision and Clothing1M.
 The findings demonstrate that CRAS excels in handling noisy labels, resulting in a superior generalization and robustness to a range of noise rates, compared with the existing method.
+
