@@ -8,10 +8,6 @@ Recent research on this topic has exploited the memorization effect: networks fi
 If you found this code helps your work, do not hesitate to cite my paper or start this repo.
 
 ### Introduction
-Install requirements
-```
-pip install -r requirements.txt
-```
 
 Warmup Commands
 ```
