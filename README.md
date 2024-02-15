@@ -18,7 +18,7 @@ cd CR
 python train.py -c config_clothing1m.json
 ```
 ```
-python main.py -c config_webvision.json
+python train.py -c config_webvision.json
 ```
 
 Training Commands
